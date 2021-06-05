@@ -1,0 +1,43 @@
+/*CONFIGURAÇÕES PADRÕES/ESTILO DO DESKTOP*/
+
+@media(max-width:375px){
+
+:root{
+  font-size: 5px;
+}
+/*CONFIGURAÇÕES DO CONTAINER GERAL/ QUE ENGLOBA PRARICAMENTE TODO MEU HTML*/
+
+#container-geral{
+  width:60%;
+  flex-direction:column;
+  transform: translateY(0);
+}
+/*CONFIGURAÇÕES DA FOTO*/
+#container-geral #container-foto
+{
+    width: 100%;
+}
+/*CAIXA DAS INFORMAÇÕES H1 P E AFINS*/
+#container-geral #container-infos{
+  text-align:center;
+  width: 100%;
+}
+#container-geral #container-infos #container-titulo h1{
+  width:100%;
+  font-size:3rem;
+}
+#container-geral #container-infos p{
+font-size:2rem;
+transform:scale(.85);
+line-height: 160%;
+}
+/*flex-direction: column;/ALINHA TODOS OS ELEMENTOS UM ABAIXO DO OUTRO/*/
+#container-geral #container-infos #merchan{
+flex-direction: column;
+}
+#container-geral #container-infos #merchan div{
+  margin-bottom: 10%;
+  font-size:2rem;
+}
+
+}

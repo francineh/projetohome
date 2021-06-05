@@ -1,0 +1,9 @@
+Neste projeto foi usado um layout, do site " front-end mentor", para fins de estudo.
+
+foi criado uma div geral que engloba todo projeto como uma caixa principal, dentro dela tivemos outras 7 caixas, contendo todo o restante do conteudo.
+
+Ambos os arquivos estão comentado mostrando assim o que cada seletor e regras css representam.
+
+"este projeto é para fins de estudo"
+
+Francine Hollweg!

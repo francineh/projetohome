@@ -1,0 +1,87 @@
+/*CONFIGURAÇÕES PADRÕES/ESTILO DO DESKTOP*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size:16px;
+}
+/*COR DE FUNDO COMO UM TODO*/
+body{
+
+    background: #000318;
+}
+
+/*CONFIGURAÇÕES DO CONTAINER GERAL/ QUE ENGLOBA PRARICAMENTE TODO MEU HTML*/
+
+#container-geral{
+width:50%;
+display:flex;
+background:#050d47f3;
+flex-direction: row-reverse;
+font-family: 'Roboto', sans-serif;
+margin:10% auto;
+
+}
+
+/*CUSTUMIZANDO A FOTO*/
+
+#container-geral #container-foto{
+
+    width:45%;
+    position:relative;
+}
+
+#container-geral #container-foto::before{
+content: '';
+width:100%;
+height:100%;
+
+background: rgb(88, 2, 114);
+position:absolute;
+top:0;
+left:0;
+z-index:10px;
+opacity: .65;
+}
+
+#container-geral #container-foto img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+/*CUSTUMIZANDO AS INFORMAÇÕES H1/H1/P*/
+#container-geral #container-infos{
+    color:white;
+    padding:5%;
+    width:55%;
+}
+
+
+#container-geral #container-infos p{
+ opacity: .45;
+}
+
+#container-geral #container-infos #container-titulo{
+margin-bottom: 5%;
+
+}
+
+#container-geral #container-infos #container-titulo h1 #destaque{
+    color: #700267;
+}
+
+/*MERCHAN/ PARTE FINAL DO MEU HTML*/
+/*justify-content:space-evenly; ALINHOU TODOS OS ELEMENTOS UM DO LADO DO OUTRO, FEZ O EFEITO QUE O GRID FARIA*/
+#container-geral #container-infos #merchan{
+display:flex;
+justify-content:space-evenly;
+}
+/*letter-spacing: 1px;/ DA UM ESPAÇO ENTRE AS LETRAS*/
+#container-geral #container-infos #merchan p{
+text-transform: uppercase;
+letter-spacing: 1px;
+
+}
